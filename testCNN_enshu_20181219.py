@@ -25,7 +25,7 @@ dataset_fieldsの要素全てを最小値で引き、その後最大値で割る
 
 """
 課題7:dataset_elecs, dataset_fieldsをそれぞれfloat型に変換する。
-その後(10000, 2 * 3), (10000, 11 * 11 * 3 * 6)にreshapeする。
+その後(dataset_size, 2 * 3), (dataset_size, 11 * 11 * 3 * 6)にreshapeする。
 """
 ############## 課題7 ################
 
